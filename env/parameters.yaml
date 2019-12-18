@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:pr-1087-4-bdd-frontend/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:pr-1087-4-bdd-frontend/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:pr-1087-4-bdd-frontend/prow:hmacToken
